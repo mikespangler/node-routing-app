@@ -1,7 +1,10 @@
-angular.module('routerApp', [])
+angular.module('routerApp', ['routerRoutes'])
   // create the controllers
-  // this will be the controller for the ENTIRE site .controller('mainController', function() {
+
+  // this will be the controller for the ENTIRE site 
+.controller('mainController', function() {
   var vm = this;
+
   // create a bigMessage variable to display in our view
   vm.bigMessage = 'A smooth sea never made a skilled sailor.';
 })
